@@ -266,7 +266,8 @@ Permission | Description
 *studio-createDraftPodcasts-[PodcastUID]* | Can create a draft for the specified podcast.
 *studio-editPodcasts-[PodcastUID]* | Can edit a specified a podcast.
 *studio-deletePodcasts-[PodcastUID]* | Can delete a specified podcast.
-*studio-editPodcastSettings-[PodcastUID]* | Set podcast settings for specified podcast.
+*studio-editPodcastGeneralSettings-[PodcastUID]* | Set podcast general settings for specified podcast.
+*studio-editPodcastEpisodeSettings-[PodcastUID]* | Set podcast episode settings for specified podcast.
 *studio-createDraftEpisodes-[PodcastUID]* | Create a draft episode for a specified podcast.
 *studio-createEpisodes-[PodcastUID]* | Create an episode for a specified podcast.
 *studio-deleteEpisodes-[PodcastUID]* | Delete episodes for specified podcast
