@@ -273,6 +273,7 @@ Permission | Description
 *studio-deleteEpisodes-[PodcastUID]* | Delete episodes for specified podcast
 *studio-importEpisodeByRSS-[PodcastUID]* | Import episodes from RSS
 *studio-importEpisodeByAssetIndex-[PodcastUID]* | Set settings for importing episodes for specified podcast
+*studio-viewPublishedRSS-[PodcastUID]* | View published RSS for specified podcast -Skip this permission check by enabling $allowAllToSeeRSS podcast setting-
 *studio-manageSettings* | Managing plugin settings
 
 ## Other Features
