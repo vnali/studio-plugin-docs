@@ -270,11 +270,12 @@ Permission | Description
 *studio-editPodcastEpisodeSettings-[PodcastUID]* | Set episode settings for specified podcast.
 *studio-createDraftEpisodes-[PodcastUID]* | Create a draft episode for a specified podcast.
 *studio-createEpisodes-[PodcastUID]* | Create an episode for a specified podcast.
-*studio-deleteEpisodes-[PodcastUID]* | Delete episodes for specified podcast
-*studio-importEpisodeByRSS-[PodcastUID]* | Import episodes from RSS
-*studio-importEpisodeByAssetIndex-[PodcastUID]* | Set settings for importing episodes for specified podcast
-*studio-viewPublishedRSS-[PodcastUID]* | View published RSS for specified podcast -Skip this permission check by enabling $allowAllToSeeRSS podcast setting-
-*studio-manageSettings* | Managing plugin settings
+*studio-deleteEpisodes-[PodcastUID]* | Delete episodes for specified podcast.
+*studio-importEpisodeByRSS-[PodcastUID]* | Import episodes from RSS.
+*studio-importEpisodeByAssetIndex-[PodcastUID]* | Set settings for importing episodes for specified podcast.
+*studio-viewPublishedRSS-[PodcastUID]* | View published RSS for specified podcast -Skip this permission check by enabling $allowAllToSeeRSS podcast setting-.
+*studio-importCategory* | Can import categories to section/category groups.
+*studio-manageSettings* | Managing plugin settings.
 
 ## Other Features
 
