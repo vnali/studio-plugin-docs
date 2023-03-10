@@ -85,6 +85,7 @@ After creating custom fields, make sure to check the episode mapping page (Plugi
 - Make sure "enable import episodes" is enabled.
 - Save this form and use the Asset index utility tool to index assets on those volumes.
 - Check if assets are imported to Craft and an episode is created for each asset file.
+  - Ensure that you specified the episode asset field in the episode mapping page. Otherwise, the plugin can't create an episode from the asset.
 - Finally, disable "enable import episodes" to prevent accidental import.
 
 ### Importing episodes via fetching data from the RSS
