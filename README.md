@@ -264,6 +264,8 @@ Permission | Description
 *studio-managePodcasts* | Can view the podcast element index page and create a podcast element.
 *studio-manageEpisodes* | Can view the episode element index page and create an episode element (for every podcast).
 *studio-createDraftNewPodcasts* | Can view create/view/resave/delete a draft new podcast.
+*studio-importCategory* | Can import categories to section/category groups.
+*studio-manageSettings* | Managing plugin settings.
 *studio-viewPodcast-[PodcastUID]* | Can view a specified podcast and drafts for the podacst created by user.
 *studio-createDraftPodcast-[PodcastUID]* | Can create a draft for the specified podcast.
 *studio-editPodcast-[PodcastUID]* | Can edit a specified a podcast.
@@ -276,17 +278,18 @@ Permission | Description
 *studio-editPodcastEpisodeSettings-[PodcastUID]* | Set episode settings for specified podcast.
 *studio-viewPodcastEpisodes-[PodcastUID]* | Can view episodes of a specified podcast and their drafts created by the user.
 *studio-createDraftEpisodes-[PodcastUID]* | Create a draft episode for a specified podcast.
-*studio-deleteDraftEpisodes-[PodcastUID]* | Can delete an own epsiode draft for the specified podcast.
 *studio-createEpisodes-[PodcastUID]* | Create an episode for a specified podcast.
+*studio-deleteDraftEpisodes-[PodcastUID]* | Can delete an own epsiode draft for the specified podcast.
+*studio-deleteEpisodes-[PodcastUID]* | Delete own episodes for specified podcast.
 *studio-viewOtherUserDraftEpisodes-[PodcastUID]* | Can view other user drafts for episodes of the specified podcast.
 *studio-saveOtherUserDraftEpisodes-[PodcastUID]* | Can save other user drafts for episodes of the specified podcast.
 *studio-deleteOtherUserDraftEpisodes-[PodcastUID]* | Can delete other user drafts for episodes of the specified podcast.
-*studio-deleteEpisodes-[PodcastUID]* | Delete episodes for specified podcast.
+*studio-viewOtherUserEpisodes-[PodcastUID]* | Can view other user episodes of the specified podcast.
+*studio-saveOtherUserEpisodes-[PodcastUID]* | Can save other user episodes of the specified podcast.
+*studio-deleteOtherUserEpisodes-[PodcastUID]* | Can delete other user episodes of the specified podcast.
 *studio-importEpisodeByRSS-[PodcastUID]* | Import episodes from RSS.
 *studio-importEpisodeByAssetIndex-[PodcastUID]* | Set settings for importing episodes for specified podcast.
 *studio-viewPublishedRSS-[PodcastUID]* | View published RSS for specified podcast -Skip this permission check by enabling $allowAllToSeeRSS podcast setting-.
-*studio-importCategory* | Can import categories to section/category groups.
-*studio-manageSettings* | Managing plugin settings.
 
 ## Other Features
 
