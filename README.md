@@ -101,8 +101,10 @@ After creating custom fields, make sure to check the episode mapping page (Plugi
 </p>
 
 ## Podcast RSS
-On the podcast element index page, for a live podcast, we can see an RSS link.  
-For disabled podcasts, there is a preview RSS link that only users with access to that podcast can see it.  
+On the podcast element index page, for an enabled podcast with published RSS, the user see a 'View' RSS link.  
+If the podcast is disabled or its RSS is not published, the user can see 'Preview' link instead.  
+For a disabled podcast, user must have *studio-viewPodcast-[PodcastUID]* permission to see RSS page.
+
 Below you can see how `<channel>` and `<item>` tags are created:
 - `<channel><title>/<channel><itunes:title>`
   - The podcast title is used.
@@ -290,6 +292,7 @@ Permission | Description
 *studio-importEpisodeByRSS-[PodcastUID]* | Import episodes from RSS.
 *studio-importEpisodeByAssetIndex-[PodcastUID]* | Set settings for importing episodes for specified podcast.
 *studio-viewPublishedRSS-[PodcastUID]* | View published RSS for specified podcast -Skip this permission check by enabling $allowAllToSeeRSS podcast setting-.
+*studio-viewNotPublishedRSS-[PodcastUID]* | View not published RSS for specified podcast
 
 ## Other Features
 
