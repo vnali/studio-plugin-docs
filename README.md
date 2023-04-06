@@ -80,13 +80,15 @@ After creating custom fields, make sure to check the episode mapping page (Plugi
 - Finally, review and save the episode.
 
 ### Importing episode via Asset Indexes utility
+This option allows you to create one episode per asset.  
+- Upload episode files to the desired volume.
 - Go to the podcast index page and click on the desired podcast and from the action list select 'Import episodes by asset index'.
 - In "Import episode when indexing assets of these volumes" field, select the volumes you uploaded episodes.
 - Make sure "enable import episodes" is enabled.
 - Save this form and use the Asset index utility tool to index assets on those volumes.
 - Check if assets are imported to Craft and an episode is created for each asset file.
   - Ensure that you specified the episode asset field in the episode mapping page. Otherwise, the plugin can't create an episode from the asset.
-- Finally, disable "enable import episodes" to prevent accidental import.
+- Finally, disable "enable import episodes" to prevent accidental creating episodes when using asset index utility.
 
 ### Importing episodes via fetching data from the RSS
 - Go to the podcast index page and click on the desired podcast and from the action list select 'Import episodes by URL'.
