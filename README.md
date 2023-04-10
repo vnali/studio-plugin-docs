@@ -226,11 +226,12 @@ Option | Description
 *--imageMetadata* | Try to fetch image metadata from the specified audio/video custom field and set fetched metadata to related fields.
 *--previewMetadata* | Only show fetched metadata without saving anything to the episode. Preview is shown only if --metadata and/or --imageMetadata are specified. 
 *--overwriteDuration* | Without using this option, if the duration native field has value, it is not overwritten.
+*--overwriteGenre* | Without using this option, if the custom field specified for importing genre metadata, has value, it is not overwritten.
 *--overwriteImage* | Without using this option, if the custom image field has value, it is not overwritten.
 *--overwriteNumber* | Without using this option, if the epsiodeNumber field has value, it is not overwritten.
-*--overwriteGenre* | Without using this option, if the custom field specified for importing genre metadata, has value, it is not overwritten.
+*--overwritePubDate* | Without using this option, if the pubDate field has value, it is not overwritten.
 *--overwriteTitle* | Without using this option, if the title field has value, it is not overwritten.
-*--ifMetaValueNotEmpty* | Use this option to prevent overwriting by null values.
+*--allowEmptyMetaValue* | Use this option to prevent overwriting by null values.
 
 ## Templating:
 ### Getting Podcasts:
