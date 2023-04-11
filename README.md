@@ -112,7 +112,9 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - `<channel><title>/<channel><itunes:title>`
   - The podcast title is used.
 - `<channel><description>`
-  - The value of the text field specified on the podcast field mapping page is used.
+  - The value of the plain text field/redactor/ckeditor specified on the podcast field mapping page is used.
+- `<channel><itunes:summary>`
+  - The value of the plain text field/redactor/ckeditor specified on the podcast field mapping page is used. 
 - `<channel><itunes:image>`
   - The URL of the image custom field specified at podcast field mapping is used.
 - `<channel><language>`
@@ -139,14 +141,20 @@ Below you can see how `<channel>` and `<item>` tags are created:
   - The value of podcastComplete native field is used.
 - `<item><title>/<item><itunes:title>`
   - The episode title is used.
+- `<item><itunes:subtitle>`
+  - The value of the plain text/redactor/ckeditor field for subtitle, specified in episode field mapping is used.
 - `<item><enclosure>`
   - The URL, type, and length of the asset for the specified episode's asset field are used.
 - `<item><guid>`
   - The value of the GUID native field is used.
 - `<item><pubDate>`
   - The value of the specified date custom field is used. if there is no mapping, episode creates date is used.
+- `<item><itunes:summary>`
+  - The value of the plain text/redactor/ckeditor field for itunes:summary specified in episode field mapping is used.
 - `<item><description>`
-  - The value of the text custom field for description specified in podcast field mapping is used.
+  - The value of the plain text/redactor/ckeditor field for description specified in episode field mapping is used.
+- `<item><content:encoded>`
+  - The value of the plain text/redactor/ckeditor field for content:encoded specified in episode field mapping is used.
 - `<item><itunes:duration>`
   - The value of the duration native field is used.
 - `<item><link>`
