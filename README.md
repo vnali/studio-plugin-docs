@@ -32,6 +32,7 @@ When creating a podcast format, you may specify these settings for the podcast a
   - Template: it is the template path to use when a podcast's URL is requested.
   - Default status: Default status for a podcast when creating a podcast.
   - The podcast and episode field layout.
+  - The podcast and episode field mapping -in these tabs, you can specify the custom fields that represent the podcast and its episode attributes.-
   - Extra settings for the podcast, episode native fields - for example, if they support translation or not.
 
 ## Podcasts
