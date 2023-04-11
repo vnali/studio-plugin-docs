@@ -10,7 +10,7 @@ This plugin is in the development phase so API can be changed.
 - Multi-site support for the podcast and episode elements.
 - Each podcast can have a different podcast format, settings, and field layout.
 - Bulk import episodes via fetching from RSS and Asset index utility.
-- Fetch Id3 metadata (title, duration, track number, images) from the episode track and save it to custom/native fields
+- Fetch Id3 metadata (title, duration, year, track number, images, genres) from the episode tracks and save it to custom/native fields
 - Generate RSS for podcasts (supported by [Apple](https://help.apple.com/itc/podcasts_connect/#/itcb54353390), [Google](https://support.google.com/podcast-publishers/answer/9889544)).
 - GraphQL support for fetching podcasts, and episodes.
 - Support for project config.
