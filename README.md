@@ -169,8 +169,10 @@ Below you can see how `<channel>` and `<item>` tags are created:
   - The value of the episodeSeason native field is used.
 - `<item><itunes:episodeType>`
   - The value of the episodeType native field is used.
-- `<item><itunes:itunes:block>`
+- `<item><itunes:block>`
   - The value of the episodeBlock native field is used.
+- `<item><itunes:keywords>`
+  - The values of custom field specified at episode field mapping is used.
 
 Additionally, there is a podcast native field podcastRedirectTo. if this field has a value, the podcast RSS page redirects to the value of this field.
 
