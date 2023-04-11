@@ -95,7 +95,7 @@ This option allows you to create one episode per asset.
 - Go to the podcast index page and click on the desired podcast and from the action list select 'Import episodes by URL'.
 - In the "Import episode from RSS" field, specify the URL you would like to fetch episodes from it.
 - If you would like to limit imported episodes, enter a value for the limit field.
-- There is an ignoreMainAsset option to prevent fetching large main asset via CURL
+- There are two options "Don't import episode's main asset" and "Don't import episode's image asset" to prevent fetching large files via CURL.
 - Save this form.
 - The plugin tries to fetch episode contents from that URL and create episodes via a Craft job.
 
