@@ -55,7 +55,8 @@ When creating a podcast, as default, the only field available is the title field
   
   You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Podcast field layout).  
   Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import podcast fields).  
-  After creating custom fields, make sure to check the podcast mapping page (Plugin settings->Podcast Formats->Podcast mapping), to specify which custom field is used for the podcast image, podcast description, or podcast category.  
+  After creating custom fields, make sure to check the podcast mapping page (Plugin settings->Podcast Formats->Podcast mapping), to specify which custom field is used for the podcast image, podcast description, or podcast category. 
+    - if you use a category field for podcast catgeory, make sure 'Maintain hierarchy' option is enabled so sub-categories are fetched correctly.
    
 <p align="center">
 <img src="https://user-images.githubusercontent.com/55586085/221909217-405423b3-0288-4f19-a731-e8edc98555a2.jpg" width="800px">  
@@ -118,6 +119,7 @@ To see A RSS page:
 - For a published podcast, user must have 'View published RSS' permission too.
 - For a published podcast, to skip permission check, go to general setting page of that podcast and enable 'Allow All to see published RSS'
 
+## Podcast RSS page
 Below you can see how `<channel>` and `<item>` tags are created:
 - `<channel><title>/<channel><itunes:title>`
   - The podcast title is used.
