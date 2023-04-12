@@ -49,6 +49,7 @@ When creating a podcast, as default, the only field available is the title field
   - podcastComplete (as a lightswitch)
   - podcastExplicit (as a lightswitch)
   - poodcastType: Available options are: Episodic and serial
+  - podcastLink
   - copyright
   - podcastRedirectTo: if you decided to redirect feed RSS to a new feed, you can set this native field.  
   - podcastIsNewFeedUrl: if this is a new feed URL, and an old feed is redirected to this feed.
