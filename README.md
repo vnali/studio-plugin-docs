@@ -108,9 +108,15 @@ This option allows you to create one episode per asset.
 </p>
 
 ## Podcast RSS
-On the podcast element index page, for an enabled podcast with published RSS, the user see a 'View' RSS link.  
-If the podcast is disabled or its RSS is not published, the user can see 'Preview' link instead.  
-For a disabled podcast, user must have *studio-viewPodcast-[PodcastUID]* permission to see RSS page.
+On the podcast element index page, for an enabled podcast with published RSS, the user -with 'View the podcast' permission- sees a 'View' RSS link.  
+If the podcast is disabled or its RSS is not published, that user sees a 'Preview' link instead.  
+To publish RSS for a podcast, go to general setting page of that podcast -on podcast index page, select the podcast and use general setting action- and enable 'Publish RSS'
+
+To see A RSS page:
+- For a disabled podcast, user must have 'View the podcast' permission.
+- For a not published podcast, user must have 'View not published RSS' permission too.
+- For a published podcast, user must have 'View published RSS' permission too.
+- For a published podcast, to skip permission check, go to general setting page of that podcast and enable 'Allow All to see published RSS'
 
 Below you can see how `<channel>` and `<item>` tags are created:
 - `<channel><title>/<channel><itunes:title>`
@@ -311,7 +317,7 @@ Save other user episodes | *studio-saveOtherUserEpisodes-[PodcastUID]* | Can sav
 Delete other user episodes | *studio-deleteOtherUserEpisodes-[PodcastUID]* | Can delete other user episodes of the specified podcast.
 Import episodes by URL | *studio-importEpisodeByRSS-[PodcastUID]* | Import episodes from RSS.
 Import episodes by Asset index | *studio-importEpisodeByAssetIndex-[PodcastUID]* | Set settings for importing episodes for specified podcast.
-View not published RSS | *studio-viewPublishedRSS-[PodcastUID]* | View published RSS for specified podcast -Skip this permission check by enabling $allowAllToSeeRSS podcast setting-.
+View not published RSS | *studio-viewPublishedRSS-[PodcastUID]* | View published RSS for specified podcast -Skip this permission check by enabling 'Allow All to see published RSS' for that podcast-.
 View published RSS | *studio-viewNotPublishedRSS-[PodcastUID]* | View not published RSS for specified podcast.
 
 ## Other Features
