@@ -122,10 +122,12 @@ To see A RSS page:
 
 ## Podcast RSS page
 Below you can see how `<channel>` and `<item>` tags are created:
-- `<channel><title>/<channel><itunes:title>`
+- `<channel><title>`/`<channel><itunes:title>`
   - The podcast title is used.
 - `<channel><description>`
   - The value of the plain text field/redactor/ckeditor specified on the podcast field mapping page is used.
+- `<channel><lastBuildDate>`/`<channel><pubDate>`
+  - The most recent updated time for the podcast and its episodes is used
 - `<channel><itunes:summary>`
   - The value of the plain text field/redactor/ckeditor specified on the podcast field mapping page is used. 
 - `<channel><itunes:image>`
@@ -152,7 +154,7 @@ Below you can see how `<channel>` and `<item>` tags are created:
   - The value of the podcastBlock native field is used.
 - `<channel><itunes:complete>`
   - The value of podcastComplete native field is used.
-- `<item><title>/<item><itunes:title>`
+- `<item><title>`/`<item><itunes:title>`
   - The episode title is used.
 - `<item><itunes:subtitle>`
   - The value of the plain text/redactor/ckeditor field for subtitle, specified in episode field mapping is used.
