@@ -90,6 +90,7 @@ This option allows you to create one episode per asset.
 - In "Import episode when indexing assets of these volumes" field, select the volumes you uploaded episodes.
 - Make sure "enable import episodes" is enabled.
 - Save this form and use the Asset index utility tool to index assets on those volumes.
+  - As default, all volumes are listed on Asset index utility page. On general setting page, there is an option, 'On Asset Indexes utility page, only list the volumes that user has saveAssets:[VolumeUID] permission'. By enabling this option, on the Asset Index Utility page, the user can only view the volumes to which the user has save access.
 - Check if assets are imported to Craft and an episode is created for each asset file.
   - Ensure that you specified the episode asset field in the episode mapping page. Otherwise, the plugin can't create an episode from the asset.
 - Finally, disable "enable import episodes" to prevent accidental creating episodes when using asset index utility.
