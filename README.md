@@ -76,7 +76,9 @@ Other native field attributes available for episode field layout are:
 
 You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Episode field layout).  
 Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import episode fields).  
-After creating custom fields, make sure to check the episode mapping page (Plugin settings->Podcast Formats->Episode mapping), to specify which custom field is used for the episode file, image, subtitle, summary, description, content encoded, publish date and keywords.
+
+After creating custom fields, make sure to check the episode mapping page (Plugin settings->Podcast Formats->Episode mapping), to specify which custom field is used for the episode file, image, subtitle, summary, description, content encoded, publish date and keywords. 
+- On the mapping page there is a special item, 'Map genre metadata to'. You can use this item to get genre metadata from episode's file and save it to a custom field. You can use this custom field later in a template or for example map episode keywords to this custom field to use genre as an episode's keyword.
 
 ### Create episodes manually
 - Go to the episodes index page.
