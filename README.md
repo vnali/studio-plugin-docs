@@ -5,6 +5,9 @@ This plugin is in the development phase so API can be changed.
 ## Requirement
 - Craft 4.4 and higher.
 
+## License & Pricing
+This is a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com).
+
 ## Main features:
 - Manage multiple podcasts.
 - Multi-site support for the podcast and episode elements.
@@ -327,10 +330,6 @@ To be able to create a podcast/an episode, the site should be enabled for that i
 > Episodes are not created on asset indexing   
 
 Make sure indexed volume is added to for intended podcast on import episodes from the Asset index page.  
-
-## License & Pricing
-
-This is a commercial plugin available through the Craft plugin store.
 
 ## Contact
 Feel free to contact me by email at vnali.dev@gmail.com or direct message me via 'vnali' on [Craft CMS Discord](https://craftcms.com/discord) channel.
