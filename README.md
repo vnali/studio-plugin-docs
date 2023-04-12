@@ -73,9 +73,10 @@ Other native field attributes available for episode field layout are:
 - episodeNumber
 - episodeType: Available options are: full, trailer, bonus
 - episodeGUID: When creating a new episode, GUID is empty. when saving that episode, if GUID is empty, it fills with the element UID.  
+
 You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Episode field layout).  
 Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import episode fields).  
-After creating custom fields, make sure to check the episode mapping page (Plugin settings->Podcast Formats->Episode mapping), to specify which custom field is used for the episode file, episode image, episode description, and episode publish date.
+After creating custom fields, make sure to check the episode mapping page (Plugin settings->Podcast Formats->Episode mapping), to specify which custom field is used for the episode file, image, subtitle, summary, description, content encoded, publish date and keywords.
 
 ### Create episodes manually
 - Go to the episodes index page.
