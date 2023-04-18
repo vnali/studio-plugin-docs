@@ -56,7 +56,7 @@ When creating a podcast, as default, the only field available is the title field
   
   You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Podcast field layout).  
   Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import podcast fields).  
-  After creating custom fields, make sure to check the podcast mapping page (Plugin settings->Podcast Formats->Podcast mapping), to specify which custom field is used for the podcast image, podcast description, or podcast category. 
+  After creating custom fields, make sure to check the podcast mapping page (Plugin settings->Podcast Formats->Podcast mapping), to specify which custom field is used for the podcast image, podcast description, or podcast category.  
     - if you use a category field for podcast catgeory, make sure 'Maintain hierarchy' option is enabled so sub-categories are fetched correctly.
    
 <p align="center">
