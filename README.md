@@ -74,11 +74,15 @@ You can specify these general settings for each podcast per site:
 - Publish RSS
 - Allow all to see published RSS
 
+For multi-sites setup, user should have 'Set general settings for the podcast' and 'edit site' for selected site to access this setting.
+
 #### Episode settings
 You can specify these episode settings for each podcast per site. These settings only applies when importing episodes via asset index utility or resaving episodes via console 
 - Default image for episodes
 - Default pub date for episodes
 - How to fetch genre from asset and import it to Craft
+
+For multi-sites setup, user should have 'Set episode settings for the podcast' and 'edit site' for selected site to access this setting.
 
 #### Import episodes by RSS
 You can [import episodes by fetching them from a RSS](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#importing-episodes-via-fetching-data-from-the-rss) via this action. 
