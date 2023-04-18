@@ -63,6 +63,29 @@ When creating a podcast, as default, the only field available is the title field
 <img src="https://user-images.githubusercontent.com/55586085/221909217-405423b3-0288-4f19-a731-e8edc98555a2.jpg" width="800px">  
 </p>  
 
+### Podcast actions
+There are some actions available for each podcast by selecting each podcast and clicking on action button:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/55586085/232880103-4223abf0-71be-48d1-af23-ce8a693b56a2.png" width="200px">
+</p>
+
+#### Genral settings
+You can specify these general settings for each podcast per site:
+- Publish RSS
+- Allow all to see published RSS
+
+#### Episode settings
+You can specify these episode settings for each podcast per site. These settings only applies when importing episodes via asset index utility or resaving episodes via console 
+- Default image for episodes
+- Default pub date for episodes
+- How to fetch genre from asset and import it to Craft
+
+#### Import episodes by RSS
+You can [import episodes by fetching them from a RSS](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#importing-episodes-via-fetching-data-from-the-rss) via this action. 
+
+#### Import episodes by Asset index
+You can specify settings for [importing epiosdes via asset indexes utility](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#importing-episode-via-asset-indexes-utility) via this action.
+
 ## Episodes
 When creating an episode, as default, the only field available is the title field.
 Other native field attributes available for episode field layout are:
@@ -92,8 +115,10 @@ After creating custom fields, make sure to check the episode mapping page (Plugi
 This option allows you to create one episode per asset.  
 - Upload episode files to the desired volume.
 - Go to the podcast index page and click on the desired podcast and from the action list select 'Import episodes by asset index'.
-- In "Import episode when indexing assets of these volumes" field, select the volumes you uploaded episodes.
-- Make sure "enable import episodes" is enabled.
+- In "Volumes to import assets as episodes" field, select the volumes you uploaded episodes.
+- Make sure "Enable" is checked so episode import is enabled.
+- Specify "Sites" that imported epiosde should be saved/propagated to.
+  - If more than one site are selected, epiosde settings for first site is used.
 - Save this form and use the Asset index utility tool to index assets on those volumes.
   - As default, all volumes are listed on Asset index utility page. On general setting page, there is an option, 'On Asset Indexes utility page, only list the volumes that user has saveAssets:[VolumeUID] permission'. By enabling this option, on the Asset Index Utility page, the user can only view the volumes to which the user has save access.
 - Check if assets are imported to Craft and an episode is created for each asset file.
@@ -105,6 +130,8 @@ This option allows you to create one episode per asset.
 - In the "Import episode from RSS" field, specify the URL you would like to fetch episodes from it.
 - If you would like to limit imported episodes, enter a value for the limit field.
 - There are two options "Don't import episode's main asset" and "Don't import episode's image asset" to prevent fetching large files via CURL.
+- Specify "Sites" that imported epiosde should be saved/propagated to.
+  - If more than one site are selected, epiosde settings for first site is used.
 - Save this form.
 - The plugin tries to fetch episode contents from that URL and create episodes via a Craft job.
 
