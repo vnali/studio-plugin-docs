@@ -277,8 +277,15 @@ There is a tool available via command line interface (CLI) that runs in a termin
 ### Resaving podcasts
 For resaving podcast elements, use `php craft studio/resave/podcasts`.
 
+Available options for resaving podcasts are:
+Option | Description
+--- | ---
+*--propagateTo* | Use this option to propagate a podcast to other sites by specifying sites for example `--propagateTo=en1,en2`
+*--setEnabledForSite* | Use this option to specify a podcast status for example `--setEnabledForSite=0` to disable the podcast
+
 ### Resaving episodes
 For resaving episode elements, use `php craft studio/resave/episodes`.
+
 Available options for resaving episodes are:
 Option | Description
 --- | ---
@@ -292,6 +299,8 @@ Option | Description
 *--overwritePubDate* | Without using this option, if the pubDate field has value, it is not overwritten.
 *--overwriteTitle* | Without using this option, if the title field has value, it is not overwritten.
 *--allowEmptyMetaValue* | Use this option to prevent overwriting by null values.
+*--propagateTo* | Use this option to propagate an epiosde to other sites by specifying sites for example `--propagateTo=en1,en2`
+*--setEnabledForSite* | Use this option to specify an epiosde status for example `--setEnabledForSite=0` to disable the episode
 
 ## Templating:
 ### Getting Podcasts:
