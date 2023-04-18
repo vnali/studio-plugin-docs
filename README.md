@@ -142,8 +142,8 @@ This option allows you to create one episode per asset.
 - The plugin tries to fetch episode contents from that URL and create episodes via a Craft job.
 
 > When importing epiosdes via Asset indexes/RSS, you can specify more than one site to save/propagate episodes.  
-> If more than one site is selected, epiosde settings -default image, pubdate, genre, .... - for the first site on the list is used when episode is saved and propagatae to other sites, but you can use [resave](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#resaving-episodes) command to apply specific episode settings for other site later.  
-> For example you can specify a default image for all episodes on site2 via episode settings and force this image via this command `studio/resave/episodes --imageMetadata --overwriteImage site=site2`. you can [propagate to other sites via resave command](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#resaving-episodes) later.
+> If more than one site is selected, [epiosde settings](https://github.com/vnali/studio-plugin-docs#episode-settings) for the first site on the list is used when episode is saved and propagatae to other sites, but you can use [resave](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#resaving-episodes) command to apply specific episode settings for other site later.  
+> For example you can specify a default image for all episodes on site2 via podcast's [episode settings](https://github.com/vnali/studio-plugin-docs#episode-settings) and force this image via this command `studio/resave/episodes --imageMetadata --overwriteImage site=site2`. you can [propagate to other sites via resave command](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#resaving-episodes) later.
 
 ## Podcast RSS
 On the podcast element index page, for an enabled podcast with published RSS, the user -with 'View the podcast' permission- sees a 'View' RSS link.  
