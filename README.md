@@ -107,6 +107,10 @@ Optionally, for testing purposes, when dev mode is on, you can import sample cus
 After creating custom fields, make sure to check the episode mapping page (Plugin settings->Podcast Formats->Episode mapping), to specify which custom field is used for the episode file, image, subtitle, summary, description, content encoded, publish date and keywords. 
 - On the mapping page there is a special item, 'Map genre metadata to'. You can use this item to get genre metadata from episode's file and save it to a custom field. You can use this custom field later in a template or for example map episode keywords to this custom field to use genre as an episode's keyword.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/55586085/221927757-873abe7e-aea2-4806-8db3-ac3525f3b55a.jpg" width="800px">  
+</p>
+
 ### Create episodes manually
 - Go to the episodes index page.
 - Select the podcast you want to create an episode in.
@@ -122,7 +126,6 @@ This option allows you to create one episode per asset.
 - In "Volumes to import assets as episodes" field, select the volumes you uploaded episodes.
 - Make sure "Enable" is checked so episode import is enabled.
 - Specify "Sites" that imported epiosde should be saved/propagated to.
-  - If more than one site are selected, epiosde settings for first site is used.
 - Save this form and use the Asset index utility tool to index assets on those volumes.
   - As default, all volumes are listed on Asset index utility page. On general setting page, there is an option, 'On Asset Indexes utility page, only list the volumes that user has saveAssets:[VolumeUID] permission'. By enabling this option, on the Asset Index Utility page, the user can only view the volumes to which the user has save access.
 - Check if assets are imported to Craft and an episode is created for each asset file.
@@ -135,13 +138,12 @@ This option allows you to create one episode per asset.
 - If you would like to limit imported episodes, enter a value for the limit field.
 - There are two options "Don't import episode's main asset" and "Don't import episode's image asset" to prevent fetching large files via CURL.
 - Specify "Sites" that imported epiosde should be saved/propagated to.
-  - If more than one site are selected, epiosde settings for first site is used.
 - Save this form.
 - The plugin tries to fetch episode contents from that URL and create episodes via a Craft job.
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/55586085/221927757-873abe7e-aea2-4806-8db3-ac3525f3b55a.jpg" width="800px">  
-</p>
+> When importing epiosdes via Asset indexes/RSS, you can specify more than one site to save/propagate episodes.  
+> If more than one site is selected, epiosde settings -default image, pubdate, genre, .... - for the first site on the list is used when episode is saved and propagatae to other sites, but you can use [resave](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#resaving-episodes) command to apply specific episode settings for other site later.  
+> For example you can specify a default image for all episodes on site2 via episode settings and force this image via this command `studio/resave/episodes --imageMetadata --overwriteImage site=site2`. you can [propagate to other sites via resave command](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#resaving-episodes) later.
 
 ## Podcast RSS
 On the podcast element index page, for an enabled podcast with published RSS, the user -with 'View the podcast' permission- sees a 'View' RSS link.  
