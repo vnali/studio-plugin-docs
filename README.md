@@ -3,7 +3,7 @@ This is a [Craft CMS](https://craftcms.com/) plugin for managing podcasts and ep
 This plugin is in the development phase so API can be changed.
 
 ## Requirement
-- Craft 4.4 and higher.
+- Craft 4.4.7 and higher.
 
 ## License & Pricing
 This is a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com).
