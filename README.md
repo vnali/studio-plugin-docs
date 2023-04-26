@@ -151,9 +151,9 @@ If the podcast is disabled or its RSS is not published, that user sees a 'Previe
 To publish RSS for a podcast, go to general setting page of that podcast -on podcast index page, select the podcast and use general setting action- and enable 'Publish RSS'
 
 To see A RSS page:
-- For a disabled podcast, user must have 'View the podcast' permission.
-- For a not published podcast, user must have 'View not published RSS' permission too.
-- For a published podcast, user must have 'View published RSS' permission too.
+- For a disabled podcast, user must have 'Manage podcasts' or 'View the podcast' permission.
+- For a not published podcast, user must have 'Manage podcasts' or 'View not published RSS' permission too.
+- For a published podcast, user must have 'Manage podcasts' or 'View published RSS' permission too.
 - For a published podcast, to skip permission check, go to general setting page of that podcast and enable 'Allow All to see published RSS'
 
 ## Podcast RSS page
