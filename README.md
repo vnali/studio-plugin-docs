@@ -146,7 +146,7 @@ This option allows you to create one episode per asset.
 > For example you can specify a default image for all episodes on site2 via podcast's [episode settings](https://github.com/vnali/studio-plugin-docs#episode-settings) and force this image via this command `studio/resave/episodes --imageMetadata --overwriteImage site=site2`. you can [propagate to other sites via resave command](https://github.com/vnali/studio-plugin-docs/edit/main/README.md#resaving-episodes) later.
 
 ## Podcast RSS
-On the podcast element index page, for an enabled podcast with published RSS, the user -with 'View the podcast' permission- sees a 'View' RSS link.  
+On the podcast element index page, for an enabled podcast with published RSS, the user -with 'Manage podcasts' or 'View the podcast' permission- sees a 'View' RSS link.  
 If the podcast is disabled or its RSS is not published, that user sees a 'Preview' link instead.  
 To publish RSS for a podcast, go to general setting page of that podcast -on podcast index page, select the podcast and use general setting action- and enable 'Publish RSS'
 
