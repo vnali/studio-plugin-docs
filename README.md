@@ -69,7 +69,7 @@ There are some actions available for each podcast by selecting each podcast and 
 <img src="https://user-images.githubusercontent.com/55586085/232880103-4223abf0-71be-48d1-af23-ce8a693b56a2.png" width="200px">
 </p>
 
-#### Genral settings
+#### General settings
 You can specify these general settings for each podcast per site:
 - Publish RSS
 - Allow all to see published RSS
