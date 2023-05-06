@@ -360,7 +360,7 @@ Set general settings for the podcast | *studio-editPodcastGeneralSettings-[Podca
 Set episode settings for the podcast | *studio-editPodcastEpisodeSettings-[PodcastUID]* | Set episode settings for specified podcast.
 View episodes | *studio-viewPodcastEpisodes-[PodcastUID]* | Can view episodes of a specified podcast and their drafts created by the user.
 Create draft episodes | *studio-createDraftEpisodes-[PodcastUID]* | Create a draft episode for a specified podcast.
-Create episodes | *studio-createEpisodes-[PodcastUID]* | Create an episode for a specified podcast.
+Create episodes | *studio-createEpisodes-[PodcastUID]* | Includes creating/saving an episode as published. For publishing other user draft episodes, user also need 'save other user drafts'. If the creator of canonical version of episode is another user, the user needs 'save other user episodes' permission too.
 Delete own drafts for episodes | *studio-deleteDraftEpisodes-[PodcastUID]* | Can delete an own epsiode draft for the specified podcast.
 Delete own episodes | *studio-deleteEpisodes-[PodcastUID]* | Delete own episodes for specified podcast.
 View other user drafts for episodes | *studio-viewOtherUserDraftEpisodes-[PodcastUID]* | Can view other user drafts for episodes of the specified podcast.
