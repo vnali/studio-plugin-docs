@@ -163,7 +163,7 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - `<channel><description>`
   - The value of the plain text field/redactor/ckeditor specified on the podcast field mapping page is used.
 - `<channel><lastBuildDate>`/`<channel><pubDate>`
-  - The most recent updated time for the podcast and its episodes is used
+  - The date, when cache for podcast RSS page is created. The date, when cache for podcast RSS page is created. The cache is invalidated when the podcast or episodes are updated or invalidated data cache utility for the Studio plugin is used.
 - `<channel><itunes:summary>`
   - The value of the plain text field/redactor/ckeditor specified on the podcast field mapping page is used. 
 - `<channel><itunes:image>`
