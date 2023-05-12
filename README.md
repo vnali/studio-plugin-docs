@@ -99,7 +99,8 @@ Other native field attributes available for episode field layout are:
 - episodeSeason
 - episodeNumber
 - episodeType: Available options are: full, trailer, bonus
-- episodeGUID: When creating a new episode, GUID is empty. when saving that episode, if GUID is empty, it fills with the element UID.  
+- episodeGUID: When creating a new episode, GUID is empty. when saving that episode, if GUID is empty, it fills with the element UID.
+- publishOnRSS: episodes appear on RSS only if the value for this field is on
 
 You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Episode field layout).  
 Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import episode fields).  
@@ -316,6 +317,9 @@ You can get podcasts from your templates with craft.podcasts
 {% for podcast in podcasts %}
   {{ podcast.title }}
 {% endfor %}
+
+// Get not explicit, not blocked, completed podcast
+craft.podcasts.blocked(false).explicit(false).completed(true).one()
 ```
 
 You can get podcasts from your plugin with Podcast::find()
@@ -331,6 +335,9 @@ You can get episodes from your templates with craft.episodes
 {% for episode in episodes %}
   {{ episode.title }}
 {% endfor %}
+
+// Get not explict, not blocked episode, published on RSS
+craft.episodes.blocked(false).explicit(false).rss(true).one()
 ```
 
 You can get episodes from your plugin with Episode::find()
