@@ -226,6 +226,7 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - `<item><itunes:keywords>`
   - The values of custom field specified at episode field mapping is used.
 - [`<podcast:chapters>`](https://github.com/vnali/craft-studio/discussions/4)
+- [`<podcast:soundbite>`](https://github.com/vnali/craft-studio/discussions/5)
 
 Additionally, there is a podcast native field podcastRedirectTo. if this field has a value, the podcast RSS page redirects to the value of this field.
 
