@@ -139,6 +139,7 @@ This option allows you to create one episode per asset.
 ### Importing episodes via fetching data from the RSS
 - Go to the podcast index page and click on the desired podcast and from the action list select 'Import episodes by URL'.
 - In the "Import episode from RSS" field, specify the URL you would like to fetch episodes from it.
+  - By supporting [podcast:locked](https://github.com/vnali/craft-studio/discussions/7) tag, this plugin doesn't import episodes from remote URL if value of this tag is set to yes.
 - If you would like to limit imported episodes, enter a value for the limit field.
 - There are two options "Don't import episode's main asset" and "Don't import episode's image asset" to prevent fetching large files via CURL.
 - Specify "Sites" that imported epiosde should be saved/propagated to.
