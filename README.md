@@ -53,6 +53,8 @@ When creating a podcast, as default, the only field available is the title field
   - copyright
   - podcastRedirectTo: if you decided to redirect feed RSS to a new feed, you can set this native field.  
   - podcastIsNewFeedUrl: if this is a new feed URL, and an old feed is redirected to this feed.
+  - [locked](https://github.com/vnali/craft-studio/discussions/7): (as a lightswitch) .
+  - [medium](https://github.com/vnali/craft-studio/discussions/6): this is a drop down field, supported values are podcast, music, video, film, audiobook, newsletter, blog.
   
   You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Podcast field layout).  
   Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import podcast fields).  
@@ -101,6 +103,7 @@ Other native field attributes available for episode field layout are:
 - episodeType: Available options are: full, trailer, bonus
 - episodeGUID: When creating a new episode, GUID is empty. when saving that episode, if GUID is empty, it fills with the element UID.
 - publishOnRSS: episodes appear on RSS only if the value for this field is on
+- [seasonName](https://github.com/vnali/craft-studio/discussions/10): 
 
 You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Episode field layout).  
 Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import episode fields).  
@@ -227,6 +230,11 @@ Below you can see how `<channel>` and `<item>` tags are created:
   - The values of custom field specified at episode field mapping is used.
 - [`<podcast:chapters>`](https://github.com/vnali/craft-studio/discussions/4)
 - [`<podcast:soundbite>`](https://github.com/vnali/craft-studio/discussions/5)
+- [`<podcast:locked>`](https://github.com/vnali/craft-studio/discussions/7)
+- [`<podcast:season>`](https://github.com/vnali/craft-studio/discussions/10)
+- [`<podcast:medium>`](https://github.com/vnali/craft-studio/discussions/6)
+- [`<podcast:funding>`](https://github.com/vnali/craft-studio/discussions/8)
+- [`<podcast:license>`](https://github.com/vnali/craft-studio/discussions/9)
 
 Additionally, there is a podcast native field podcastRedirectTo. if this field has a value, the podcast RSS page redirects to the value of this field.
 
