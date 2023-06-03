@@ -195,6 +195,11 @@ Below you can see how `<channel>` and `<item>` tags are created:
   - The value of the podcastBlock native field is used.
 - `<channel><itunes:complete>`
   - The value of podcastComplete native field is used.
+- [`<channel><podcast:locked>`](https://github.com/vnali/craft-studio/discussions/7)
+- [`<channel><podcast:medium>`](https://github.com/vnali/craft-studio/discussions/6)
+- [`<channel><podcast:funding>`](https://github.com/vnali/craft-studio/discussions/8)
+- [`<channel><podcast:license>`](https://github.com/vnali/craft-studio/discussions/9)
+- [`<channel><podcast:person>`](https://github.com/vnali/craft-studio/discussions/11)
 - `<item><title>`/`<item><itunes:title>`
   - The episode title is used.
 - `<item><itunes:subtitle>`
@@ -229,13 +234,11 @@ Below you can see how `<channel>` and `<item>` tags are created:
   - The value of the episodeBlock native field is used.
 - `<item><itunes:keywords>`
   - The values of custom field specified at episode field mapping is used.
-- [`<podcast:chapters>`](https://github.com/vnali/craft-studio/discussions/4)
-- [`<podcast:soundbite>`](https://github.com/vnali/craft-studio/discussions/5)
-- [`<podcast:locked>`](https://github.com/vnali/craft-studio/discussions/7)
-- [`<podcast:season>`](https://github.com/vnali/craft-studio/discussions/10)
-- [`<podcast:medium>`](https://github.com/vnali/craft-studio/discussions/6)
-- [`<podcast:funding>`](https://github.com/vnali/craft-studio/discussions/8)
-- [`<podcast:license>`](https://github.com/vnali/craft-studio/discussions/9)
+- [`<item><podcast:chapters>`](https://github.com/vnali/craft-studio/discussions/4)
+- [`<item><podcast:soundbite>`](https://github.com/vnali/craft-studio/discussions/5)
+- [`<item><podcast:season>`](https://github.com/vnali/craft-studio/discussions/10)
+- [`<item><podcast:license>`](https://github.com/vnali/craft-studio/discussions/9)
+- [`<item><podcast:person>`](https://github.com/vnali/craft-studio/discussions/11)
 
 Additionally, there is a podcast native field podcastRedirectTo. if this field has a value, the podcast RSS page redirects to the value of this field.
 
