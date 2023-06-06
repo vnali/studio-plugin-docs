@@ -243,7 +243,7 @@ Below you can see how `<channel>` and `<item>` tags are created:
 Additionally, there is a podcast native field podcastRedirectTo. if this field has a value, the podcast RSS page redirects to the value of this field.
 
 ### RSS page cache
-As long as a podcast and its episode data are not changed, the podcast's RSS page data is returned from the cache.  
+As long as data related to project's elements (podcasts, episodes, users, entries, assets, ...) are not changed, the RSS page of a podcast is returned from the cache.  
 Although there is an option in clear cache [utility](https://craftcms.com/docs/4.x/control-panel.html#utilities), `Studio plugin`, that can be used to clear RSS page cache data.
 
 ## GraphQL:
