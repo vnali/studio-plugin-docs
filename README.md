@@ -202,6 +202,7 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - [`<channel><podcast:person>`](https://github.com/vnali/craft-studio/discussions/11)
 - [`<channel><podcast:transcript>`](https://github.com/vnali/craft-studio/discussions/14)
 - [`<channel><podcast:trailer>`](https://github.com/vnali/craft-studio/discussions/15)
+- [`<channel><podcast:alternateEnclosure>`](https://github.com/vnali/craft-studio/discussions/16)
 - `<item><title>`/`<item><itunes:title>`
   - The episode title is used.
 - `<item><itunes:subtitle>`
