@@ -1,12 +1,13 @@
 ## Introduction
-This is a [Craft CMS](https://craftcms.com/) plugin for managing podcasts and episodes.
+This is the documentation page for the [Studio plugin](https://github.com/vnali/craft-studio) for [Craft CMS](https://craftcms.com/).
+This plugin helps to manage podcasts and episodes.
 This plugin is in the development phase so API can be changed.
 
 ## Requirement
 - Craft 4.4.7 and higher.
 
 ## License & Pricing
-This is a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com).
+This is a commercial plugin available through the [Craft plugin store](https://plugins.craftcms.com/studio).
 
 ## Main features:
 - Manage multiple podcasts.
