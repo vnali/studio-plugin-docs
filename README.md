@@ -203,8 +203,8 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - [`<channel><podcast:person>`](https://github.com/vnali/craft-studio/discussions/11)
 - [`<channel><podcast:transcript>`](https://github.com/vnali/craft-studio/discussions/14)
 - [`<channel><podcast:trailer>`](https://github.com/vnali/craft-studio/discussions/15)
-- [`<channel><podcast:alternateEnclosure>`](https://github.com/vnali/craft-studio/discussions/16)
 - [`<channel><podcast:location>`](https://github.com/vnali/craft-studio/discussions/17)
+- [`<channel><podcast:liveItem>`](https://github.com/vnali/craft-studio/discussions/18)
 - `<item><title>`/`<item><itunes:title>`
   - The episode title is used.
 - `<item><itunes:subtitle>`
@@ -244,6 +244,9 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - [`<item><podcast:season>`](https://github.com/vnali/craft-studio/discussions/10)
 - [`<item><podcast:license>`](https://github.com/vnali/craft-studio/discussions/9)
 - [`<item><podcast:person>`](https://github.com/vnali/craft-studio/discussions/11)
+- [`<item><podcast:alternateEnclosure>`](https://github.com/vnali/craft-studio/discussions/16)
+- [`<item><podcast:location>`](https://github.com/vnali/craft-studio/discussions/17)
+- [`<item><podcast:socialInteract>`](https://github.com/vnali/craft-studio/discussions/19)
 
 Additionally, there is a podcast native field podcastRedirectTo. if this field has a value, the podcast RSS page redirects to the value of this field.
 
