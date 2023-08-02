@@ -207,6 +207,7 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - [`<channel><podcast:location>`](https://github.com/vnali/craft-studio/discussions/17)
 - [`<channel><podcast:liveItem>`](https://github.com/vnali/craft-studio/discussions/18)
 - [`<channel><podcast:txt>`](https://github.com/vnali/craft-studio/discussions/20)
+- [`<channel><podcast:value>`](https://github.com/vnali/craft-studio/discussions/22)
 - `<item><title>`/`<item><itunes:title>`
   - The episode title is used.
 - `<item><itunes:subtitle>`
@@ -250,7 +251,8 @@ Below you can see how `<channel>` and `<item>` tags are created:
 - [`<item><podcast:location>`](https://github.com/vnali/craft-studio/discussions/17)
 - [`<item><podcast:socialInteract>`](https://github.com/vnali/craft-studio/discussions/19)
 - [`<item><podcast:txt>`](https://github.com/vnali/craft-studio/discussions/20)
-  
+- [`<item><podcast:value>`](https://github.com/vnali/craft-studio/discussions/22)
+
 Additionally, there is a podcast native field podcastRedirectTo. if this field has a value, the podcast RSS page redirects to the value of this field.
 
 ### RSS page cache
