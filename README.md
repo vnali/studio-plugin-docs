@@ -413,6 +413,7 @@ View published RSS | *studio-viewNotPublishedRSS-[PodcastUID]* | View not publis
   - Available Podcast conditions: author name, owner name, owner email, copyright, podcats being complete/explicit/complete/new.
   - Available Episode conditions: duration, season, type, number, and the episode being explicit/blocked.
 - You can import [sample podcast categories](https://podcasters.apple.com/support/1691-apple-podcasts-categories), quickly via (Import->Import Category). these samples can be imported only to empty sections/category groups.
+- Support [OP3 analytics service](https://github.com/vnali/craft-studio/discussions/23).
 
 ## FAQ
 
