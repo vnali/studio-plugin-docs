@@ -56,6 +56,7 @@ When creating a podcast, as default, the only field available is the title field
   - podcastIsNewFeedUrl: if this is a new feed URL, and an old feed is redirected to this feed.
   - [locked](https://github.com/vnali/craft-studio/discussions/7): (as a lightswitch) .
   - [medium](https://github.com/vnali/craft-studio/discussions/6): this is a drop down field, supported values are podcast, music, video, film, audiobook, newsletter, blog.
+  - [podcastGUID](https://github.com/vnali/craft-studio/discussions/21)
   
   You can create custom fields and add them to the field layout via (Plugin settings->Podcast Formats->Podcast field layout).  
   Optionally, for testing purposes, when dev mode is on, you can import sample custom fields quickly via (Plugin settings->Import podcast fields).  
