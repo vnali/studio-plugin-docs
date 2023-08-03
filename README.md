@@ -77,6 +77,7 @@ There are some actions available for each podcast by selecting each podcast and 
 You can specify these general settings for each podcast per site:
 - Publish RSS
 - Allow all to see published RSS
+- Enable OP3
 
 For multi-sites setup, user should have 'Set general settings for the podcast' and 'edit site' for selected site to access this setting.
 
