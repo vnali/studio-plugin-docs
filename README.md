@@ -18,6 +18,7 @@ This is a commercial plugin available through the [Craft plugin store](https://p
 - Generate RSS for podcasts (supported by [Apple](https://help.apple.com/itc/podcasts_connect/#/itcb54353390), [Google](https://support.google.com/podcast-publishers/answer/9889544)).
 - GraphQL support for fetching podcasts, and episodes.
 - Support for project config.
+- Support for most of [Podcast Index tags](https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#table-of-contents)
 
 ## Podcast formats
 To be able to create a podcast, there must be at least one podcast format.  
