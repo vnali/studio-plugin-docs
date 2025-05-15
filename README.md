@@ -1,4 +1,8 @@
 ## Introduction
+
+> [!CAUTION]
+> This plugin is minimally maintained. It does not appear to be actively used in production and is unlikely to receive updates for Craft 6.
+
 This is the documentation page for the [Studio plugin](https://github.com/vnali/craft-studio) for [Craft CMS](https://craftcms.com/).
 This plugin helps to manage podcasts and episodes.
 This plugin is in the development phase so API can be changed.
